@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Minecraft';
+  src: url('../Minecraft.ttf'); /* 字体文件路径 */
+}
+body {
+  font-family: 'Minecraft', sans-serif;
+  background: #4B4B4B;
+  color: white;
+}
+.btn {
+  background: #7CFC00;
+  border: 3px solid #5D3B0F;
+}
