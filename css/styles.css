@@ -1,13 +1,16 @@
 @font-face {
-  font-family: 'Minecraft';
-  src: url('../Minecraft.ttf'); /* 字体文件路径 */
+  font-family: "Minecraft";  /* 字体名称必须一致 */
+  src: url('../minecraft.ttf'); /* 路径正确，文件名全小写 */
 }
 body {
-  font-family: 'Minecraft', sans-serif;
-  background: #4B4B4B;
-  color: white;
+  font-family: "Minecraft", sans-serif;
+  background: #4B4B4B; /* 深灰色背景 */
+  color: #FFFFFF;      /* 白色文字 */
 }
-.btn {
-  background: #7CFC00;
-  border: 3px solid #5D3B0F;
+
+.btn { /* 使用标准类名 .btn */
+  background: #7CFC00;  /* 按钮背景-草地绿 */
+  border: 3px solid #5D3B0F; /* 边框：3像素实线深棕色 */
+  padding: 10px 20px;   /* 内边距：上下10px，左右20px */
+  color: white !important; /* 文字颜色强制白色 */
 }
