@@ -1,16 +1,65 @@
 @font-face {
-  font-family: "Minecraft";  /* 字体名称必须一致 */
-  src: url('../minecraft.ttf'); /* 路径正确，文件名全小写 */
-}
-body {
-  font-family: "Minecraft", sans-serif;
-  background: #4B4B4B; /* 深灰色背景 */
-  color: #FFFFFF;      /* 白色文字 */
+  font-family: 'Minecraft';
+  src: url('../Minecraft.ttf');
 }
 
-.btn { /* 使用标准类名 .btn */
-  background: #7CFC00;  /* 按钮背景-草地绿 */
-  border: 3px solid #5D3B0F; /* 边框：3像素实线深棕色 */
-  padding: 10px 20px;   /* 内边距：上下10px，左右20px */
-  color: white !important; /* 文字颜色强制白色 */
+body {
+  font-family: 'Minecraft', sans-serif;
+  background: #4B4B4B url('../img/mc-bg.jpg') no-repeat center fixed;
+  background-size: cover;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  color: #7CFC00;
+  text-shadow: 3px 3px #000;
+  font-size: 40px;
+}
+
+.server-info {
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  border: 4px solid #555;
+  margin: 30px 0;
+}
+
+.ip {
+  color: #FFD700;
+  font-size: 24px;
+}
+
+.mc-button {
+  display: inline-block;
+  background: #8B4513;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border: 3px solid #5D3B0F;
+  margin-top: 20px;
+  transition: all 0.3s;
+}
+
+.mc-button:hover {
+  background: #7CFC00;
+  border-color: #5D3B0F;
+}
+
+.rules {
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  border: 4px solid #555;
+}
+
+.rules li {
+  font-size: 18px;
+  margin: 10px 0;
+  list-style: none;
 }
