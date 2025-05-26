@@ -51,12 +51,3 @@ body {
   font-size: 18px;
   margin: 10px 0;
 }
-h1 {
-  color: #7CFC00; /* 草地绿 */
-  text-shadow: 
-    3px 3px #000000,  /* 右下阴影 */
-    -1px -1px #FFFFFF; /* 左上高光 */
-  border: 4px solid #5D3B0F; /* 深棕边框 */
-  padding: 15px;
-  display: inline-block; /* 让边框包裹文字 */
-}
